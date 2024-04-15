@@ -17,6 +17,7 @@ junit = "4.13.2"
 junitVersion = "1.1.5"
 kotlin = "1.9.0"
 ksp = "1.9.10-1.0.13"
+ktor = "2.3.10"
 lifecycleRuntimeKtx = "2.7.0"
 lifecycleViewmodelCompose = "2.7.0"
 lottie = "6.4.0"
@@ -52,6 +53,9 @@ hilt-ext-compiler = { group = "androidx.hilt", name = "hilt-compiler", version.r
 hilt-ext-work = { group = "androidx.hilt", name = "hilt-work", version.ref = "hiltExt" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ksp = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+ktor = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktor"}
+ktor-android = { group = "io.ktor", name = "ktor-client-android", version.ref = "ktor"}
+ktor-serialization = { group = "io.ktor", name = "ktor-client-serialization", version.ref = "ktor"}
 lottie = { group = "com.airbnb.android", name = "lottie-compose", version.ref = "lottie" }
 navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation-compose" }
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
