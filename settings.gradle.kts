@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google {
             content {
@@ -22,4 +23,15 @@ dependencyResolutionManagement {
 
 rootProject.name = "Ai Bubble"
 include(":app")
- 
+include(":core")
+include(":core:datastore")
+include(":core:networking")
+include(":core:domain")
+include(":core:model")
+include(":core:common")
+include(":feature")
+include(":feature:history")
+include(":feature:chat-ai")
+include(":core:firebase")
+include(":feature:bubble")
+include(":feature:search")
