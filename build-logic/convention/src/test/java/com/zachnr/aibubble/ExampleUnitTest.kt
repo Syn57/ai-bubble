@@ -1,8 +1,10 @@
-package com.zachnr.convention
+package com.zachnr.aibubble
 
-import org.junit.Test
-
-import org.junit.Assert.*
+import org.gradle.internal.impldep.org.junit.Assert.assertEquals
+import org.gradle.internal.impldep.org.junit.Test
+//import org.junit.Test
+//
+//import org.junit.Assert.*
 
 /**
  * Example local unit test, which will execute on the development machine (host).

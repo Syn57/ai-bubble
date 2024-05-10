@@ -1,7 +1,9 @@
 [versions]
 activityCompose = "1.8.2"
 agp = "8.5.0-alpha03"
+tools = "31.2.0"
 androidDatastore = "1.0.0"
+androidxComposeCompiler = "1.5.7"
 androidxCoreSplashscreen = "1.0.1"
 androidxHiltNavigationCompose = "1.0.0"
 composeBom = "2024.04.00"
@@ -24,6 +26,7 @@ lottie = "6.4.0"
 navigation-compose = "2.7.7"
 retrofit = "2.11.0"
 room = "2.6.1"
+truth = "1.1.5"
 appcompat = "1.6.1"
 material = "1.11.0"
 
@@ -63,8 +66,11 @@ navigation-compose = { group = "androidx.navigation", name = "navigation-compose
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+truth = { group = "com.google.truth", name = "truth", version.ref = "truth" }
 
 # Dependencies of the included build-logic
+android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
+android-tools-common = { group = "com.android.tools", name = "common", version.ref = "tools" }
 kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 ksp-gradlePlugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
 room-gradlePlugin = { group = "androidx.room", name = "room-gradle-plugin", version.ref = "room" }
